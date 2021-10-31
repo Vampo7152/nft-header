@@ -1,0 +1,32 @@
+div#content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 85%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  div.nft {
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #eee;
+  }
+  div#ethcontent {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 85%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  div.nfter {
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #eee;
+  }

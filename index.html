@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+    <link rel="stylesheet" href="main.css" > </link>
+  </head>
+  <body>
+    
+    <!-- checking on ETH now --->
+    
+    <h1> NFT Sneeker</h1>
+    <h3>
+      Sneek Peek into accounts of your Friends or Influencers and find what NFTs
+      have they bought!
+    </h3>
+    <input id="ethnftaddress" placeholder="Paste the Eth Address Here!" type="text" />
+    <button onclick="getEthNFT()">Search</button>
+    <div id="ethcontent"></div>
+    <input id="nftaddress" placeholder="Paste the Matic Address Here!" type="text" />
+    <button onclick="getNFT()">Search</button>
+    <div id="content"></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
