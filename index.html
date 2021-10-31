@@ -39,7 +39,9 @@
 
       async function getNFT() {
         let address = document.getElementById("nftaddress").value;
+        let currentDiv = document.getElementById("content");
 
+        currentDiv.innerHTML = "";
         const options = {
           chain: "matic",
           address: address,
