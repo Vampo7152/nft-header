@@ -5,19 +5,17 @@
     <link rel="stylesheet" href="main.css" > </link>
   </head>
   <body>
-    
-    <h1> NFT Sneeker</h1>
-    <h3>
-      Sneek Peek into accounts of your Friends or Influencers and find what NFTs
-      have they bought! Sneek Now!
+    <div class="container">
+    <h1 class="heading1"> POLYSNEEK 👀</h1>
+    <h3 class="heading2">
+      Sneek Peek your friend's wallet and find out which Polygon NFTs are they Hodling💎🙌
     </h3>
-    <input id="ethnftaddress" placeholder="Paste the Eth Address Here!" type="text" />
-    <button onclick="getEthNFT()">Search</button>
-    <div id="ethcontent"></div>
-    <input id="nftaddress" placeholder="Paste the Matic Address Here!" type="text" />
-    <button onclick="getNFT()">Search</button>
+    <div class="search-container">
+    <input id="nftaddress" class="input-main" placeholder="Wallet Address" type="text" />
+    <button onclick="getNFT()" class="button-main" >Let's Go!</button>
+  </div>
     <div id="content"></div>
-
+  </div>
     <script src="main.js"></script>
   </body>
 </html>

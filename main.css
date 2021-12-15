@@ -1,32 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.container{
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+
+}
+.heading1{
+  color: #8247e5;
+}
+.heading2{
+  margin-left: 1.5rem ;
+  margin-right: 1.5rem ;
+}
+.input-main{
+width: 20rem;
+padding:8px 14px;
+box-sizing: border-box;
+border: 1px solid #8247e5;
+  border-radius: 8px;
+}
+.input-main:focus {
+  border: 2px solid #8247e5;
+}
+.button-main{
+  background-color: #8247e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding:10px 16px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+.search-container{
+  margin-top: 1.2rem;
+  margin-bottom: 4rem;
+}
 div#content {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 85%;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 85%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
 
+div.nft {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #8247e5;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 8px;
+}
+@media screen and (min-width: 900px){
   div.nft {
-    width: 24%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #eee;
+    width: 30%;
   }
-  div#ethcontent {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 85%;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  }
-
-  div.nfter {
-    width: 24%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #eee;
-  }
+  
+}
